@@ -1,0 +1,28 @@
+{
+    "name": "ajaxy/logger",
+    "type": "ajaxy",
+    "description": "Ajaxy Logger",
+    "keywords": [],
+    "homepage": "https://ajaxy.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naji Amer",
+            "email": "contact@ajaxy.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+    },
+    "autoload": {
+        "psr-4": { "Ajaxy\\Logger\\": "/src" },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
