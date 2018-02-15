@@ -19,7 +19,11 @@
     "conflict": {
     },
     "autoload": {
-        "psr-4": { "Ajaxy\\Logger\\": "/src" },
+        "psr-4": {
+            "Ajaxy\\Logger\\": "/src",
+            "Ajaxy\\Logger\\Handler": "/src/Handler",
+            "Ajaxy\\Logger\\Format": "/src/Format"
+        },
         "exclude-from-classmap": [
             "/tests/"
         ]
