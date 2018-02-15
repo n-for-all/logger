@@ -17,7 +17,7 @@ $ composer require ajaxy/logger
 ```php
 <?php
 
-use Ajaxy\Logger;
+use Ajaxy\Logger\Logger;
 use Ajaxy\Logger\Handler\Stream;
 
 // create a log channel
