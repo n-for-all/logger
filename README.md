@@ -21,7 +21,7 @@ use Ajaxy\Logger\Logger;
 use Ajaxy\Logger\Handler\Stream;
 
 // create a log channel
-$log = new Logger('name');
+$log = new Logger();
 $log->pushHandler(new Stream('path/to/dir/', Logger::WARNING));
 
 // dynamic logging
