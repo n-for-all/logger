@@ -9,10 +9,12 @@ class Event extends Base implements HandlerInterface{
     /** @var string|null */
     private $errors = [];
 
-    /** @var string|null */
+    /** @var iterable|null */
     private $tags = null;
 
     private $format = null;
+
+    private $on_log = null;    
 
 
     /** @var string|null */

@@ -226,7 +226,7 @@ class Stream extends Base implements HandlerInterface
                 clearstatcache(false, $dir);
 
                 if (!is_dir($dir) || !is_readable($dir)) {
-                    throw new \Exception(sprintf('Failed to create the log directory "%s". %s', $dir, $this->errorMessage));
+                    throw new \Exception(sprintf('Failed to create the log directory "%s". %s', $dir, json_encode($this->errorMessage)));
                 }
             }
             return true;
